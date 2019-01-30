@@ -10,4 +10,4 @@ do_this(Func) ->
     Func().
 
 start() ->
-    do_this(fun() -> 2 + 2 end).
+    do_this(fun() -> 2 * 2 / 2 * 2 / 2 end).
