@@ -1,5 +1,5 @@
 -module(sample).
--export([divide_by_all/2]).
+-export([divide_by_all/2,start/0]).
 
 divide_by_all(Result,0) ->
     Result;
